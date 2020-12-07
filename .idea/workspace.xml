@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b7c53e3-0075-45bb-8ef5-ced33ba3657c" name="Default Changelist" comment="all except exercise 2b)">
+      <change afterPath="$PROJECT_DIR$/.idea/WE-Ubung.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webentwicklung/u3/aufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webentwicklung/u3/aufgaben.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webentwicklung/u3/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webentwicklung/u3/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webentwicklung/u3/mitglieder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webentwicklung/u3/mitglieder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webentwicklung/u3/reiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webentwicklung/u3/reiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webentwicklung/u3/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webentwicklung/u3/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trialator/index.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1k9s8HMImeytUp0sPviaU5MlFJ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mikae\PhpstormProjects\WE-Ubung" />
+      <recent name="C:\Users\Mikae\PhpstormProjects\WE-Ubung\Webentwicklung" />
+      <recent name="C:\Users\Mikae\PhpstormProjects\WE-Ubung\Webentwicklung\u2" />
+      <recent name="C:\Users\Mikae\PhpstormProjects\WE-Ubung\XAMPP Index" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Webentwicklung/u2/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b7c53e3-0075-45bb-8ef5-ced33ba3657c" name="Default Changelist" comment="" />
+      <created>1605123980632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605123980632</updated>
+      <workItem from="1605123981680" duration="2946000" />
+      <workItem from="1605627659272" duration="4376000" />
+      <workItem from="1606061226261" duration="2727000" />
+      <workItem from="1606152153743" duration="10003000" />
+      <workItem from="1606214675698" duration="8715000" />
+      <workItem from="1606487061493" duration="7237000" />
+      <workItem from="1606738294144" duration="13019000" />
+      <workItem from="1606772863735" duration="423000" />
+      <workItem from="1606822741154" duration="199000" />
+      <workItem from="1606853607783" duration="1188000" />
+      <workItem from="1606895785585" duration="1363000" />
+      <workItem from="1607077232610" duration="1651000" />
+      <workItem from="1607272209716" duration="4552000" />
+      <workItem from="1607343584283" duration="8487000" />
+      <workItem from="1607359946262" duration="1166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all except exercise 2b)" />
+    <option name="LAST_COMMIT_MESSAGE" value="all except exercise 2b)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="256" key="#Deployment" timestamp="1607350558349">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="-877" y="1098" key="#Deployment/0.0.2194.1194/-1280.887.1280.984@-1280.887.1280.984" timestamp="1606063485127" />
+    <state x="690" y="256" key="#Deployment/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606218631610" />
+    <state x="690" y="256" key="#Deployment/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607350558349" />
+    <state x="773" y="279" key="#Options" timestamp="1607346621142">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="773" y="279" key="#Options/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607346621142" />
+    <state x="805" y="240" key="#PHP" timestamp="1605124211725">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="805" y="240" key="#PHP/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1605124211725" />
+    <state x="674" y="243" key="#SSH_Configurations" timestamp="1607077701483">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="674" y="243" key="#SSH_Configurations/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1605124745539" />
+    <state x="674" y="243" key="#SSH_Configurations/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607077701483" />
+    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607273467204">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606222507614" />
+    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607273467204" />
+    <state x="721" y="166" key="CommitChangelistDialog2" timestamp="1607361246768">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="721" y="166" key="CommitChangelistDialog2/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607361246768" />
+    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1607345754412">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606218580538" />
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607345754412" />
+    <state x="974" y="495" key="Github.ShareDialog" timestamp="1607344248036">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="974" y="495" key="Github.ShareDialog/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607344248036" />
+    <state x="896" y="302" key="Github.UntrackedFilesDialog" timestamp="1607344271856">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="896" y="302" key="Github.UntrackedFilesDialog/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607344271856" />
+    <state x="1013" y="388" key="NewPhpFileDialog" timestamp="1607274241428">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="932" y="521" key="NewPhpFileDialog/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606222743195" />
+    <state x="1013" y="388" key="NewPhpFileDialog/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607274241428" />
+    <state x="606" y="242" key="SettingsEditor" timestamp="1607278618594">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="606" y="242" key="SettingsEditor/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606062209460" />
+    <state x="606" y="242" key="SettingsEditor/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607278618594" />
+    <state x="0" y="0" width="1869" height="1026" key="dock-window-1" timestamp="1607273489402">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="0" y="0" width="1869" height="1026" key="dock-window-1/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607273489402" />
+    <state x="983" y="328" key="ftp.server.browser" timestamp="1607345952816">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="983" y="328" key="ftp.server.browser/0.0.2194.1194/-1280.887.1280.984@0.0.2194.1194" timestamp="1606218587776" />
+    <state x="983" y="328" key="ftp.server.browser/0.0.2194.1194/-1280.958.1280.984/3840.975.1280.984@0.0.2194.1194" timestamp="1607345952816" />
+  </component>
+</project>
