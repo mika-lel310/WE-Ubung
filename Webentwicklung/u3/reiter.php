@@ -11,6 +11,23 @@
 
 <body>
 
+<?php
+    $reiter = array(
+        array(
+            "name" => "ToDo",
+            "beschreibung" => "Dinge die erledigt werden müssen.",
+        ),
+        array(
+            "name" => "Erledigt",
+            "beschreibung" => "Dinge die erledigt sind.",
+        ),
+        array(
+            "name" => "Verschoben",
+            "beschreibung" => "Dinge die später erledigt werden.",
+        ),
+    );
+?>
+
 <div class="container-fluid">
     <?php
     $site = "Reiter";
@@ -35,30 +52,26 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>ToDo</td>
-                            <td>Dinge die erledigt werden müssen.</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Erledigt</td>
-                            <td>Dinge die erledigt sind.</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Verschoben</td>
-                            <td>Dinge die später erledigt werden.</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i></a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
+
+                            <?php
+
+                            if(isset($reiter)) {
+                                foreach ($reiter as $i) {
+                                    echo "<tr>";
+                                    echo '<td>' . $i["name"] . '</td>';
+                                    echo '<td>' . $i["beschreibung"] . '</td>';
+                                    echo '<td class="text-right">';
+                                    echo '<a href="#"> <i class="far fa-edit"></i> </a>';
+                                    echo '<a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>';
+                                    echo "</td>";
+                                    echo "<tr>";
+                                }
+                            }
+                            else{
+                                echo '<h4 class="text-danger">Variable not defined</h4>';
+                            }
+                            ?>
+
                         </tbody>
                     </table>
 

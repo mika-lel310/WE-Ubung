@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a0a74a17-ffe2-4553-befc-0a869e9888a3" name="WE-local" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="261ef525-6b54-4226-822e-c6d26f23c5a6" name="WE-live" url="https://snumi.000webhostapp.com/">
+        <fileTransfer host="files.000webhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fe132116-e93a-4fe0-af21-0c4c825de556" name="XAMPP - htdocs" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="11f9f0cf-4e9f-4a3c-a121-1f74178777db" name="trialator-live" url="http://trialator.com">
+        <fileTransfer accessType="SFTP" host="ssh.strato.de" port="22" sshConfigId="6e2ca387-287e-412d-9224-5e00c7c6ed0a" sshConfig="trialator.com@ssh.strato.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

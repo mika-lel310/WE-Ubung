@@ -11,6 +11,41 @@
 
 <body>
 
+<?php
+    $aufgaben = array(
+        array(
+            "bezeichnung" => "HTML Datei erstellen",
+            "beschreibung" => "HTML Datei erstellen",
+            "reiter" => "ToDo",
+            "zustandig" => "Max Mustermann",
+        ),
+        array(
+            "bezeichnung" => "CSS Datei erstellen",
+            "beschreibung" => "CSS Datei erstellen",
+            "reiter" => "ToDo",
+            "zustandig" => "Max Mustermann",
+        ),
+        array(
+            "bezeichnung" => "PC eingeschaltet",
+            "beschreibung" => "PC einschalten",
+            "reiter" => "Erledigt",
+            "zustandig" => "Max Mustermann",
+        ),
+        array(
+            "bezeichnung" => "Kaffee trinken",
+            "beschreibung" => "Kaffee trinken",
+            "reiter" => "Erledigt",
+            "zustandig" => "Petra Müller",
+        ),
+        array(
+            "bezeichnung" => "Für die Uni lernen",
+            "beschreibung" => "Für die Uni lernen",
+            "reiter" => "Verschoben",
+            "zustandig" => "Max Mustermann",
+        ),
+    );
+?>
+
 <div class="container-fluid">
     <?php
         $site = "Aufgaben";
@@ -38,64 +73,25 @@
                         </thead>
                         <tbody>
 
-                        <tr>
-                            <td>HTML Datei erstellen</td>
-                            <td>HTML Datei erstellen</td>
-                            <td>ToDo</td>
-                            <td>Max Mustermann</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>CSS Datei erstellen</td>
-                            <td>CSS Datei erstellen</td>
-                            <td>ToDo</td>
-                            <td>Max Mustermann</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>PC eingeschaltet</td>
-                            <td>PC einschalten</td>
-                            <td>Erledigt</td>
-                            <td>Max Mustermann</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>Kaffee trinken</td>
-                            <td>Kaffee trinken</td>
-                            <td>Erledigt</td>
-                            <td>Petra Müller</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>Für die Uni lernen</td>
-                            <td>Für die Uni lernen</td>
-                            <td>Verschoben</td>
-                            <td>Max Mustermann</td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
+                        <?php
+                        if(isset($aufgaben)) {
+                            foreach ($aufgaben as $a) {
+                                echo "<tr>";
+                                echo '<td>' . $a["bezeichnung"] . '</td>';
+                                echo '<td>' . $a["beschreibung"] . '</td>';
+                                echo '<td>' . $a["reiter"] . '</td>';
+                                echo '<td>' . $a["zustandig"] . '</td>';
+                                echo '<td class="text-right">';
+                                echo '<a href="#"> <i class="far fa-edit"></i> </a>';
+                                echo '<a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>';
+                                echo '</td>';
+                                echo '<tr>';
+                            }
+                        }
+                        else{
+                            echo '<h4 class="text-danger">Variable not defined</h4>';
+                        }
+                        ?>
 
                         </tbody>
                     </table>

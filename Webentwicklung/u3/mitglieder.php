@@ -11,6 +11,19 @@
 
 <body>
 
+<?php
+$mitglieder = array(
+    array(
+        "name" => "Max Mustermann",
+        "email" => "mustermann@muster.de",
+    ),
+    array(
+        "name" => "Petra Müller",
+        "email" => "petra@mueller.de",
+    ),
+);
+?>
+
 <div class="container-fluid">
     <?php
         $site = "Mitglieder";
@@ -36,28 +49,26 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>Max Mustermann</td>
-                            <td>mustermann@muster.de</td>
-                            <td>
-                                <input type="checkbox" id="in_projekt">
-                            </td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Petra Müller</td>
-                            <td>petra@mueller.de</td>
-                            <td>
-                                <input type="checkbox" id="in_projekt">
-                            </td>
-                            <td class="text-right">
-                                <a href="#"> <i class="far fa-edit"></i> </a>
-                                <a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>
-                            </td>
-                        </tr>
+
+                        <?php
+                        if(isset($mitglieder)) {
+                            foreach ($mitglieder as $m) {
+                                echo "<tr>";
+                                echo '<td>' . $m["name"] . '</td>';
+                                echo '<td>' . $m["email"] . '</td>';
+                                echo '<td> <input type="checkbox" id="in_projekt"> </td>';
+                                echo '<td class="text-right">';
+                                echo '<a href="#"> <i class="far fa-edit"></i> </a>';
+                                echo '<a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>';
+                                echo "</td>";
+                                echo "<tr>";
+                            }
+                        }
+                        else{
+                            echo '<h4 class="text-danger">Variable not defined</h4>';
+                        }
+                        ?>
+
                         </tbody>
                     </table>
 
