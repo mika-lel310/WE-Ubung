@@ -76,7 +76,7 @@
                         <?php
                         if(isset($aufgaben)) {
                             foreach ($aufgaben as $a) {
-                                echo "<tr>";
+                                echo '<tr>';
                                 echo '<td>' . $a["bezeichnung"] . '</td>';
                                 echo '<td>' . $a["beschreibung"] . '</td>';
                                 echo '<td>' . $a["reiter"] . '</td>';

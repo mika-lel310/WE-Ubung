@@ -53,15 +53,15 @@ $mitglieder = array(
                         <?php
                         if(isset($mitglieder)) {
                             foreach ($mitglieder as $m) {
-                                echo "<tr>";
+                                echo '<tr>';
                                 echo '<td>' . $m["name"] . '</td>';
                                 echo '<td>' . $m["email"] . '</td>';
                                 echo '<td> <input type="checkbox" id="in_projekt"> </td>';
                                 echo '<td class="text-right">';
                                 echo '<a href="#"> <i class="far fa-edit"></i> </a>';
                                 echo '<a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>';
-                                echo "</td>";
-                                echo "<tr>";
+                                echo '</td>';
+                                echo '</tr>';
                             }
                         }
                         else{

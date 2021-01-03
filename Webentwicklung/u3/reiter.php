@@ -57,14 +57,14 @@
 
                             if(isset($reiter)) {
                                 foreach ($reiter as $i) {
-                                    echo "<tr>";
+                                    echo '<tr>';
                                     echo '<td>' . $i["name"] . '</td>';
                                     echo '<td>' . $i["beschreibung"] . '</td>';
                                     echo '<td class="text-right">';
                                     echo '<a href="#"> <i class="far fa-edit"></i> </a>';
                                     echo '<a href="#" class="ml-2"> <i class="far fa-trash-alt"></i> </a>';
-                                    echo "</td>";
-                                    echo "<tr>";
+                                    echo '</td>';
+                                    echo '<tr>';
                                 }
                             }
                             else{
